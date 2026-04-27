@@ -1,0 +1,7 @@
+{
+    "dataset": "Iris.csv",
+    "model": "tree",
+    "n_objects": 20,
+    "maze_algo": "DFS",
+    "perfect_maze": false
+}
