@@ -21,6 +21,12 @@ class Color:
     GOAL_COLOR = (255, 69, 58)
     SOLUTION_COLOR = (48, 209, 88)
     EXPLORED_COLOR = (10, 132, 255)
+
+    # Cell-type detection colours (ML detector)
+    DEAD_END_COLOR = (255, 159, 10)   # orange  — dead end
+    CORRIDOR_COLOR = (100, 210, 255)  # sky blue — straight corridor
+    TURN_COLOR     = (191, 90, 242)   # purple  — corner turn
+    JUNCTION_COLOR = (48, 209, 88)    # green   — T / + junction
     
     BUTTON_BG = (44, 44, 46)
     BUTTON_HOVER = (64, 64, 66)
